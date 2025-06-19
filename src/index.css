@@ -10,3 +10,7 @@ body {
     background-color: #151515 !important;
     font-family: var(--main-font);
 }
+
+.input {
+    @apply placeholder:opacity-50 border-b pb-3.5 pl-6 border-white text-white mb-8 w-[100%];
+}

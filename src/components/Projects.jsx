@@ -11,7 +11,7 @@ export default function component() {
 
       if (data.length) {
         setData(data);
-      }
+      }  
     }
 
     getData();
@@ -27,7 +27,7 @@ export default function component() {
       </div>
       {data && data.length ? (
         <ul className="grid gap-8 grid-cols-1 sm:grid-cols-2">
-          {data.map((project, index) => (
+          {data.map((project) => (
             <Project key={project.titregrid}
               link={project.link}
               description={project.descriptiontitre}

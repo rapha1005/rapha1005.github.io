@@ -20,7 +20,7 @@ const list = [
 
 export default function component() {
   return (
-    <div className="flex gap-6">
+    <div className="flex gap-6 items-center">
       {list.map((item, index) => (
         <Icon key={item.alt} href={item.link} src={item.icon} alt={item.alt}/>
       ))}

@@ -13,7 +13,7 @@ function App() {
       <Hero />
       <Separator />
       <Skills />
-      <Separator />
+      <Separator shouldHidden={true}/>
       <Projects />
       <Footer />
     </>

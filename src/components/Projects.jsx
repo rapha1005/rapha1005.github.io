@@ -6,7 +6,7 @@ export default function component() {
 
   useEffect(() => {
     async function getData() {
-      const res = await fetch("/src/data/work.json");
+      const res = await fetch("/data/work.json");
       const data = await res.json();
 
       if (data.length) {

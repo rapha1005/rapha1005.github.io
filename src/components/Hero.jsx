@@ -1,6 +1,8 @@
 import { useEffect, useRef } from "react";
 import Typewriter from "typewriter-effect/dist/core";
 
+import pp from "../assets/pp.jpg"
+
 export default function Component() {
   const typewriterRef = useRef(null);
 
@@ -23,7 +25,7 @@ export default function Component() {
 
   return (
     <div className="w-[90%] mx-auto mb-20 flex flex-col items-center text-white text-center md:flex-row-reverse md:text-left">
-      <img src="./src/assets/pp.jpg" alt="" className="mb-10 md:w-[600px]" />
+      <img src={pp} alt="" className="mb-10 md:w-[600px]" />
       <div>
         <h1
           ref={typewriterRef}

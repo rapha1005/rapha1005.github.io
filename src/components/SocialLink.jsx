@@ -3,17 +3,17 @@ import Icon from './SocialIcon'
 const list = [
   {
     alt: "github",
-    icon: "/src/assets/github.svg",
+    icon: "/images/github.svg",
     link: "https://github.com/rapha1004",
   },
   {
     alt: "x",
-    icon: "/src/assets/x.svg",
+    icon: "/images/x.svg",
     link: "https://www.youtube.com/watch?v=xvFZjo5PgG0&list=RDxvFZjo5PgG0&start_radio=1",
   },
   {
     alt: "linkedin",
-    icon: "/src/assets/linkedin.svg",
+    icon: "/images/linkedin.svg",
     link: "https://www.youtube.com/watch?v=xvFZjo5PgG0&list=RDxvFZjo5PgG0&start_radio=1",
   },
 ];

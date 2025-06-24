@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Separator from "./components/separator"
 import Header from "./components/Header"
 import Hero from "./components/Hero"

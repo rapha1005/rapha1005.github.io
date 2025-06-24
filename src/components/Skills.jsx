@@ -42,41 +42,6 @@ const SKILL = [
     name: "Figma",
     yearsOfXP: 1,
   },
-
-
-  {
-    name: "Star Citizen",
-    yearsOfXP: 1,
-  },
-  {
-    name: "ChatGPT",
-    yearsOfXP: 2,
-  },
-  {
-    name:"Ctrl + C / Ctrl + V",
-    yearsOfXP: "∞",
-  },
-  {
-    name: "Scanneur de QR code en 0.3s",
-    yearsOfXP: 2,
-  },
-  {
-    name: "Pro player Microsoft Flight Simulator",
-    yearsOfXP: 5,
-  },
-  {
-    name: "Peut écrire 'AZERTY' sans regarder le clavier",
-    yearsOfXP: 4,
-  },
-  {
-    name: "Consultant expert en médias numériques à thématique anthropomorphique",
-    yearsOfXP: 16,
-  },
-  {
-    name: "Peut voir les longueurs d'ondes lumineuses de 300 nm a 800 nm",
-    yearsOfXP: 5,
-  }
-  
 ];
 
 export default function component() {
